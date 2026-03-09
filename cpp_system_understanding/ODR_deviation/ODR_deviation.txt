@@ -1,0 +1,2 @@
+내부 파일에서 main.cpp, add.cpp, add2.cpp 같이 실행
+목적 : ODR(Only Definition Rule) 확인 위함
