@@ -2,10 +2,9 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe 활성 파일 빌드",
-            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "label": "C/C++: build active file",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
-                "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
@@ -14,14 +13,11 @@
             "options": {
                 "cwd": "${fileDirname}"
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
+            "problemMatcher": ["$gcc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "detail": "디버거에서 생성된 작업입니다."
+            }
         }
     ],
     "version": "2.0.0"
