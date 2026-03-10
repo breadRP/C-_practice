@@ -27,3 +27,4 @@ int main() {
     cout << "Highest: " << topStudent << " " << topScore << endl;
 
     return 0;
+}
