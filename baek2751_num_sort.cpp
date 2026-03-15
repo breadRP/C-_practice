@@ -1,4 +1,4 @@
-// 수 오름차순 정렬 + 중복 제거
+// 수 오름차순 정렬
 #include <iostream>
 #include <vector>
 #include <algorithm>
